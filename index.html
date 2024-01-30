@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz of your choice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="instructions-container">
+        <h2 class="instructions-toggle">Instructions &#9660;</h2>
+        <div class="instructions-content">
+            <p>Welcome to the quiz! Here's how to play:</p>
+            <ol>
+                <li>Read each question carefully.</li>
+                <li>Select the correct answer from the options provided.</li>
+                <li>Click the "Next" button to proceed to the next question.</li>
+                <li>After answering all questions, click the "Finish" button to see your results.</li>
+            </ol>
+        </div>
+    </section>
+    
+    <div class="info-icon">
+        <i class="fas fa-info-circle"></i>
+    </div>
+
+    <h1>Quiz of your choice</h1>
+    <div class="add_qs">
+        <input id="page_quiz_q" type="text" placeholder="Question">
+        <input id="page_correct_ans" type="text" placeholder="Correct Answer">
+        <input id="page_wrong_ans_1" type="text" placeholder="Wrong Answer 1">
+        <input id="page_wrong_ans_2" type="text" placeholder="Wrong Answer 2">
+        <button onclick="handlers.add_qs()">Add Question</button>
+    </div>
+    <div class="info">
+        <ul>
+            <li id="question_ct">You currently have 0 questions added to your quiz</li>
+        </ul>
+        <button onclick="view_page_handler.show_qs()" id="startQuiz">Start Quiz</button>        
+    </div>
+    <p class="correct_ans_ct"></p>
+    <div class="qs_wrapper"></div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
