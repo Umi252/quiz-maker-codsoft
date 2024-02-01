@@ -1,12 +1,12 @@
 html, body {
     width: 100%;
-    height: 50%;
+    height: 100%;
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background-color: #910404dc;
-    background-image: url('https://private-user-images.githubusercontent.com/122819248/300902435-985d9f1f-3447-43f9-b665-a453eb8a07cf.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDY2MzUxOTUsIm5iZiI6MTcwNjYzNDg5NSwicGF0aCI6Ii8xMjI4MTkyNDgvMzAwOTAyNDM1LTk4NWQ5ZjFmLTM0NDctNDNmOS1iNjY1LWE0NTNlYjhhMDdjZi5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDEzMFQxNzE0NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNzBlZWZlOGZjZmUyNGQxOTIzN2U0MzExZjU2YWU5ZGM5MjI5ZDg2NDFiMzM4MGYwMGJhODJjNzJlNzcwNDkxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.ICR-UMLf1QN4bB5G7drrkiMGfhzYlzvpTYm-PGWg9yE');
-    background-size: 50% auto; 
+    background-size: 45% auto; 
+    background-image: url(https://github.com/Umi252/quiz-maker-codsoft/blob/main/Glitch%20,%20Marta%20Tozzi.jpg?raw=true);
     background-position: center; 
     background-attachment: fixed;
     background-repeat: no-repeat;
